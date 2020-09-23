@@ -1,2 +1,2 @@
 # Hor-rios
-Site de horários com css e JavaScript puros
+Site de horário escolar com css e JavaScript puros

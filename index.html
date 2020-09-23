@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>horários</title>
+     <link rel="stylesheet" href="CSS/styles.css"/>
+  </head>
+  <body onload="checkDay()">
+    <div id="div1">
+      <header>
+        <h1>Horário das aulas</h1>
+      </header>
+      <section>
+        <div class='hoje'>
+        <table id="table"> 
+           <caption id="caption">HORÁRIO DE HOJE(matutino)</caption>  
+           
+           <tr><td class="a">horário</td><td class="b">matérias</td></tr>         
+           <tr><td class="a">07:00</td> <td class="b" id="h1">Matemática</td></tr>         
+           <tr><td class="a">07:50</td> <td class="b" id="h2">Matemática</td></tr>
+           <tr><td class="a">08:40</td> <td class="b" id="h3">Português</td></tr>   
+           <tr><td class="a">9:30</td><td>intervalo</td></tr>
+           <tr><td class="a">09:50</td> <td class="b" id="h4">Português</td></tr>
+           <tr><td class="a">10:40</td> <td class="b" id="h5">Geografia</td></tr>         
+           <tr><td class="a">11:30</td> <td class="b" id="h6">Geografia</td></tr>
+        </table>
+        </div>
+        
+        <div class='hoje'>
+        <table id="table"> 
+           <caption id="Caption">HORÁRIO DE HOJE(vespertino)</caption>  
+           
+           <tr><td class="a">horário</td><td class="b">matérias</td></tr>         
+           <tr><td class="a">13:30</td> <td class="b" id="H1">Matemática</td></tr>         
+           <tr><td class="a">14:20</td> <td class="b" id="H2">Matemática</td></tr>
+           <tr><td class="a">15:10</td> <td class="b" id="H3">Português</td></tr>   
+           <tr><td class="a">16:00</td><td>intervalo</td></tr>
+           <tr><td class="a">16:30</td> <td class="b" id="H4">Português</td></tr>
+           <tr><td class="a">17:20</td> <td class="b" id="H5">Geografia</td></tr>         
+           <tr><td class="a">18:10</td> <td class="b" id="H6">Geografia</td></tr>
+        </table>
+        </div>
+      </section>
+    </div>
+    <div id='div1'>
+      <header>
+        <h1>Horários da Semana(matutino/vespertino)</h1>
+      </header>
+      <section>
+         <table id="table"> 
+           <caption id="caption">HORÁRIO DA SEMANA(matutino)</caption>  
+           
+           <tr>
+             <td class="a">horário</td> 
+             <td class="b" id='s'>Segunda</td>
+             <td class="b" id='t'>Terça</td>
+             <td class="b" id='q'>Quarta</td>
+             <td class="b" id='qn'>Quinta</td>
+             <td class="b" id='sx'>Sexta</td>
+           </tr>    
+           
+           <tr>
+             <td class="a">07:00</td> 
+             <td class="b">Matemática</td>
+             <td class="b">Sociologia</td>
+             <td class="b">Geografia</td>
+             <td class="b">Biologia</td>
+             <td class="b">História</td>
+           </tr>    
+           
+           <tr>
+             <td class="a">07:50</td> 
+             <td class="b" >Matemática</td>
+             <td class="b" >Filosofia</td>
+             <td class="b" >Geografia</td>
+             <td class="b" >Biologia</td>
+             <td class="b" >Biologia</td>
+           </tr>
+           
+           <tr>
+             <td class="a">08:40</td> 
+             <td class="b">Português</td>
+             <td class="b">Física</td>
+             <td class="b">Química</td>
+             <td class="b">Arte</td>
+             <td class="b">Informática</td>
+           </tr>   
+           
+           <tr>
+             <td >09:30</td> 
+             <td ></td>
+             <td ></td></td>
+             <td >intervalo</td>
+             <td ></td>
+             <td ></td>
+           </tr>
+           
+           <tr>
+             <td class="a">09:50</td> 
+             <td class="b">Português</td>
+             <td class="b">Física</td>
+             <td class="b">Química</td>
+             <td class="b">Arte</td>
+             <td class="b">Filosofia</td>
+           </tr>
+           
+           <tr>
+             <td class="a">10:40</td> 
+             <td class="b">História</td>
+             <td class="b">Informática</td>
+             <td class="b">Ed.Física</td>
+             <td class="b">Informática</td>
+             <td class="b">Sociologia</td>
+           </tr>       
+           
+           <tr>
+             <td class="a">11:30</td> 
+             <td class="b">História</td>
+             <td class="b">Português</td>
+             <td class="b">Ed.Física</td>
+             <td class="b">Matemática</td>
+             <td class="b">Física</td>
+           </tr>
+           
+         </table>
+        
+         <table id="table"> 
+           <caption id="caption">HORÁRIO DA SEMANA(vespertino)</caption>  
+           
+           <tr>
+             <td class="a">horário</td> 
+             <td class="b" id='S'>Segunda</td>
+             <td class="b" id='T'>Terça</td>
+             <td class="b" id='Q'>Quarta</td>
+             <td class="b" id='QN'>Quinta</td>
+             <td class="b" id='SX'>Sexta</td>
+           </tr>    
+           
+           <tr>
+             <td class="a">13:30</td> 
+             <td class="b">Matemática</td>
+             <td class="b">Sociologia</td>
+             <td class="b">Geografia</td>
+             <td class="b">Biologia</td>
+             <td class="b">História</td>
+           </tr>    
+           
+           <tr>
+             <td class="a">14:20</td> 
+             <td class="b" >Matemática</td>
+             <td class="b" >Filosofia</td>
+             <td class="b" >Geografia</td>
+             <td class="b" >Biologia</td>
+             <td class="b" >Biologia</td>
+           </tr>
+           
+           <tr>
+             <td class="a">15:10</td> 
+             <td class="b">Português</td>
+             <td class="b">Física</td>
+             <td class="b">Química</td>
+             <td class="b">Arte</td>
+             <td class="b">Informática</td>
+           </tr>   
+           
+           <tr>
+             <td >16:00</td> 
+             <td ></td>
+             <td ></td></td>
+             <td >intervalo</td>
+             <td ></td>
+             <td ></td>
+           </tr>
+           
+           <tr>
+             <td class="a">16:30</td> 
+             <td class="b">Português</td>
+             <td class="b">Física</td>
+             <td class="b">Química</td>
+             <td class="b">Arte</td>
+             <td class="b">Filosofia</td>
+           </tr>
+           
+           <tr>
+             <td class="a">17:20</td> 
+             <td class="b">História</td>
+             <td class="b">Informática</td>
+             <td class="b">Ed.Física</td>
+             <td class="b">Informática</td>
+             <td class="b">Sociologia</td>
+           </tr>       
+           
+           <tr>
+             <td class="a">18:10</td> 
+             <td class="b">História</td>
+             <td class="b">Português</td>
+             <td class="b">Ed.Física</td>
+             <td class="b">Matemática</td>
+             <td class="b">Física</td>
+           </tr>
+           
+        </table>
+      </section>
+      <footer>
+        <h1>Redes Sociais: </h1>
+        <a id='button' href='https://instagram.com/eduardo_lopes.j?igshid=1k4qf7to5chd9'>Instagran</a>
+        <a id='button' href='https://www.facebook.com/eduardojunior.lopesfarias.1'>Facebook</a>
+        <a id='copy' href='https://github.com/duardoLopes'>GitHub</a>
+        
+        <p>&copy;eduardo_lopes</p>
+      </footer>
+    </div>
+    <script src='JS/script.js'></script>
+  </body>
+</html>

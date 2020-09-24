@@ -11,6 +11,10 @@
         border-radius: 15px;
         background: #fff;
       }
+      .cabecalho{
+        background: #E0FFFF;
+        text-shadow: 0px 0px 10px red;
+      }
       .hoje{
         display: inline-block;
         margin: 10px;

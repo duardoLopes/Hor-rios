@@ -12,8 +12,11 @@
         background: #fff;
       }
       .cabecalho{
-        background: #E0FFFF;
-        text-shadow: 0px 0px 10px red;
+        border: solid 2px;
+        font-weight: 80px;
+        text-shadow: 2px 1px 2px black;
+        background: #222;
+        color: #0091FF;
       }
       .hoje{
         display: inline-block;
